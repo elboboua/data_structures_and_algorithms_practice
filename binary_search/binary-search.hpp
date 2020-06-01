@@ -19,3 +19,20 @@ int binarySearch(int array[], int size, int search) {
 
 
 }
+
+
+int recursiveBinarySearch(int array[], int low, int high, int search) {
+    
+    if (low > high) {
+        return -1;
+    } else {
+        int mid = (high+low)/2;
+        if (array[mid] == search) return mid;
+        else if (array[mid] > search) return recursiveBinarySearch(array, low, mid-1, search);
+        else return recursiveBinarySearch(array, mid+1, high, search);
+
+    }
+
+
+
+}

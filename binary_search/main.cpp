@@ -11,5 +11,10 @@ int main () {
     std::cout << "Is the number 11 present? " << (binarySearch(array, 10, 11) > -1? "Yes": "No") << std::endl;
 
 
+    // search for #s recursively
+    std::cout << "Is the number 3 present? " << (recursiveBinarySearch(array, 0, 9, 3) > -1? "Yes": "No") << std::endl;
+    std::cout << "Is the number 11 present? " << (recursiveBinarySearch(array, 0, 9, 11) > -1? "Yes": "No") << std::endl;
+
+
     return 0;
 }
