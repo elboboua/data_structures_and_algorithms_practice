@@ -1,5 +1,5 @@
 #include <iostream>
-#include "selection-sort.hpp"
+#include "selection-sort2.hpp"
 
 void printArray(int array[], int SIZE) {
     for (int i = 0; i < SIZE; i++) {

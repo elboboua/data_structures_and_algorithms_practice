@@ -1,5 +1,5 @@
 #include <iostream>
-#include "binary-search.hpp"
+#include "binary-search2.hpp"
 
 int main () {
 
